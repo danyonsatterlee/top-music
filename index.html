@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- STYLES -->
+  <link rel="stylesheet" href="lib/bootstrap.min.css">
+  <!-- Animate CSS -->
+  <link rel="stylesheet" href="lib/animate.min.css">
+  <!-- Custom CSS-->
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Bungee+Shade|Lato" rel="stylesheet">
+  <!-- JAVA AND JQUERY -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.0/themes/smoothness/jquery-ui.css">
+
+
+
+
+  <title>Top Music</title>
+</head>
+<body>
+
+  <div class="container">
+    <div class="row">
+      <h1 class="text-center">Top Music by Country</h1>
+      <div class="col-md-6 col-md-offset-3">
+        <div class="input-group">
+          <input id="country" type="text" class="form-control" placeholder="Type in country" autofocus>
+          <span class="input-group-btn">
+            <button id="search" class="btn btn-danger" type="button">Go!</button>
+          </span>
+        </div><!-- /input-group -->
+      </div>
+    </div>
+
+  </div>
+
+  <div class="container">
+    <div id="artists" class="row"></div>
+      <div id="modal"></div>
+
+  </div>
+
+
+  <!-- Bootstrap Java Script-->
+  <script src="lib/bootstrap.min.js"></script>
+
+  <script src="js/scripts.js"></script>
+</body>
+</html>

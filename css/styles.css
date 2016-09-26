@@ -1,0 +1,31 @@
+
+/* unvisited link */
+.element.style a:link {
+    color:#d9534f !important;
+}
+
+/* visited link */
+a:visited {
+    color: green;
+}
+
+/* mouse over link */
+a:hover {
+    color: rgb(124, 177, 155);
+    cursor: pointer;
+}
+
+/* selected link */
+a:active {
+    color: #d9534f;
+}
+
+
+
+
+
+
+img{
+  box-shadow: 10px 10px 5px #888888;
+  margin-bottom: 10px;
+}
